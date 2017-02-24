@@ -29,6 +29,7 @@
     "lib"
   ],
   "dependencies": {
+    "linebreak": "^0.3.0"
   },
   "devDependencies": {
     "ava": "^0.18.2",
