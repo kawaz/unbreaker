@@ -56,7 +56,7 @@ test('If includes combining character sqeuence, not insert WJ', t => {
   t.is(expect, unbreakable(original))
 })
 
-test('Treat one emoji character as one character ()', t => {
+test('Treat one emoji character as one character', t => {
   {
     const original = `🍎🍊🍉`
     const expect = `🍎${WJ}🍊${WJ}🍉`
