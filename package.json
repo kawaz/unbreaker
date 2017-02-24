@@ -1,6 +1,6 @@
 {
   "name": "unbreakable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert kaomoji to strings that do not break at end of line",
   "main": "lib/unbreakable.js",
   "scripts": {
@@ -29,6 +29,7 @@
     "lib"
   ],
   "dependencies": {
+    "linebreak": "^0.3.0"
   },
   "devDependencies": {
     "ava": "^0.18.2",
