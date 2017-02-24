@@ -1,2 +1,3 @@
-# unbreakable
-Convert kaomoji to strings that do not break at end of line.
+# unbreaker
+Convert line breakable string to non-breakable character sequence.
+

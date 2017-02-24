@@ -1,15 +1,15 @@
 {
-  "name": "unbreakable",
+  "name": "unbreaker",
   "version": "1.0.1",
-  "description": "Convert kaomoji to strings that do not break at end of line",
-  "main": "lib/unbreakable.js",
+  "description": "Convert line breakable strings to non-breakable character sequence",
+  "main": "lib/unbreaker.js",
   "scripts": {
     "test": "ava",
     "lint": "eslint src test"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/kawaz/unbreakable.git"
+    "url": "git+ssh://git@github.com/kawaz/unbreaker.git"
   },
   "keywords": [
     "string",
@@ -22,9 +22,9 @@
   "author": "Yoshiaki Kawazu <kawazzz@gmail.com> (https://twitter.com/kawaz)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kawaz/unbreakable/issues"
+    "url": "https://github.com/kawaz/unbreaker/issues"
   },
-  "homepage": "https://github.com/kawaz/unbreakable#readme",
+  "homepage": "https://github.com/kawaz/unbreaker#readme",
   "files": [
     "lib"
   ],
