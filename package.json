@@ -1,0 +1,39 @@
+{
+  "name": "unbreakable",
+  "version": "1.0.0",
+  "description": "Convert kaomoji to strings that do not break at end of line",
+  "main": "lib/unbreakable.js",
+  "scripts": {
+    "test": "ava",
+    "lint": "eslint src test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kawaz/unbreakable.git"
+  },
+  "keywords": [
+    "string",
+    "break",
+    "line",
+    "emoji",
+    "kaomoji",
+    "unicode"
+  ],
+  "author": "Yoshiaki Kawazu <kawazzz@gmail.com> (https://twitter.com/kawaz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kawaz/unbreakable/issues"
+  },
+  "homepage": "https://github.com/kawaz/unbreakable#readme",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "babel-cli": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "eslint": "^3.16.1"
+  }
+}
