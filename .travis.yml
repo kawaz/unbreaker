@@ -3,7 +3,7 @@ sudo: false
 
 language: node_js
 node_js:
-- '4'
+# - '4'
 - '5'
 - '6'
 - '7'
@@ -12,16 +12,6 @@ before_script:
 script:
 - npm run test
 - npm run lint
-
-# https://docs.travis-ci.com/user/languages/javascript-with-nodejs#Node.js-v4-(or-io.js-v3)-compiler-requirements
-env:
-  - CXX=g++-4.8
-addons:
-  apt:
-    sources:
-      - ubuntu-toolchain-r-test
-    packages:
-      - g++-4.8
 
 # Npm publish options
 before_deploy:
