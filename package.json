@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/kawaz/unbreaker.git"
   },
-  "version": "1.0.4",
+  "version": "1.0.6",
   "author": "Yoshiaki Kawazu <kawazzz@gmail.com> (https://twitter.com/kawaz)",
   "homepage": "https://github.com/kawaz/unbreaker",
   "license": "MIT",
@@ -21,8 +21,12 @@
     "unicode"
   ],
   "files": [
+    "bin",
     "lib"
   ],
+  "bin": {
+    "unbreaker": "./bin/unbreaker.js"
+  },
   "main": "lib/unbreaker.js",
   "scripts": {
     "build": "NODE_ENV=production babel src --out-dir lib --source-maps",
