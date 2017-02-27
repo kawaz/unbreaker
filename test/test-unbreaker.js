@@ -1,5 +1,4 @@
 import test from 'ava'
-import 'babel-core/register'
 import unbreaker from '../src/unbreaker.js'
 
 const NBSP = '\u00a0'

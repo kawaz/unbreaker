@@ -5,7 +5,7 @@
     "url": "git+ssh://git@github.com/kawaz/unbreaker.git"
   },
   "version": "1.0.2",
-  "author": "Yoshiaki Kawazu (https://twitter.com/kawaz)",
+  "author": "Yoshiaki Kawazu",
   "email": "kawazzz@gmail.com",
   "homepage": "https://github.com/kawaz/unbreaker#readme",
   "license": "MIT",
@@ -30,8 +30,14 @@
     "watch": "babel src --out-dir lib --watch --source-maps inline",
     "prepublish": "npm run --if-present build",
     "pretest": "npm run build",
-    "test": "ava",
-    "lint": "eslint src test"
+    "test": "nyc ava",
+    "lint": "eslint src test",
+    "report": "nyc report --reporter=html"
+  },
+  "ava": {
+    "require": [
+      "babel-core/register"
+    ]
   },
   "dependencies": {
     "linebreak": "^0.3.0"
@@ -42,6 +48,7 @@
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-latest": "^6.22.0",
-    "eslint": "^3.16.1"
+    "eslint": "^3.16.1",
+    "nyc": "^10.1.2"
   }
 }
