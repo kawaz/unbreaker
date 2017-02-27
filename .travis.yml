@@ -13,6 +13,9 @@ script:
 - npm run test
 - npm run lint
 
+after_success:
+  - './node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls'
+
 # Npm publish options
 before_deploy:
 - npm run build
