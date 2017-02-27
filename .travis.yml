@@ -10,6 +10,7 @@ node_js:
 before_script:
 - npm prune
 script:
+- npm run test
 - npm run lint
 
 # https://docs.travis-ci.com/user/languages/javascript-with-nodejs#Node.js-v4-(or-io.js-v3)-compiler-requirements
