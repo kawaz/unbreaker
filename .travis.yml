@@ -12,3 +12,14 @@ before_script:
 script:
 - npm run lint
 
+# Npm publish options
+before_deploy:
+- npm run build
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: kawazzz@gmail.com
+  api_key:
+    secure: Hdi6A0JzyG8ixHNpliB1OYnOzdGOJJtWcRtFLJf4Cd0o4f/aQ6mrFRsc8bxy52shRjaNYkDbXAEYxVLdO0s9hf5QqZI5et17GC+wwmC56VH22qkL4mBZzAJINxc+DnZSQZyNbDCD8kOa+LUzxswL90pWXhQK8IHupHgCK6Epstrt94HOqxIqyqfOT2KvO0TdSfTFcyeZMbA5/FooFT68o9gnQ93+BmHFu3H9SXevvAD4fDbPfb5zzAMzlo9YC6YUl6lEc8Eaj+5G2tJaXyBpnyIrKg7M6OVAzZtekebX54zfWY9B7Ky+USe5rFc8HzLNmu47KonHb8J8Bny43Bnnbp6+SwFQKijszQ8evVK4eOqL97tUZZOc+0ugr/Dwra1WryallOxb5jGdTWhgBowsMch+yD0MiUi3v3uBV302ehD59yBpsm3CxbtbtyiNX6vZm4qsx9fzHIJdyn7fI+2J+Q6dVLXNAH8rmy5QN6xUAYYugbpktPV+chHHGnVdI+aIoYixZG5XqH6r7qe6/Alu1DJHqSDvyYEg3Jz8e9x203RASngXF34IKa3TUZz+/yDYoHy9+GXkp152JECsVr2zPX7exXE5oxVACgCqwvXVElM5RCtxXqjuhUrCt2VE7OryrzZ3uaqLrjpDGGEZuGtuyHjk1w5UKw/3SNBgteHvwo0=
+  on:
+    node: 6
