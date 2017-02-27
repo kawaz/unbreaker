@@ -4,10 +4,9 @@
     "type": "git",
     "url": "git+ssh://git@github.com/kawaz/unbreaker.git"
   },
-  "version": "1.0.3",
-  "author": "Yoshiaki Kawazu",
-  "email": "kawazzz@gmail.com",
-  "homepage": "https://github.com/kawaz/unbreaker#readme",
+  "version": "1.0.4",
+  "author": "Yoshiaki Kawazu <kawazzz@gmail.com> (https://twitter.com/kawaz)",
+  "homepage": "https://github.com/kawaz/unbreaker",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kawaz/unbreaker/issues"
