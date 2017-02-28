@@ -1,6 +1,6 @@
 # unbreaker
 
-[![NPM](https://nodei.co/npm/unbreaker.png)](https://nodei.co/npm/unbreaker/)
+[![NPM](https://nodei.co/npm/unbreaker.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/unbreaker/)
 [![Build Status](https://travis-ci.org/kawaz/unbreaker.svg?branch=master)](https://travis-ci.org/kawaz/unbreaker)
 [![Coverage Status](https://coveralls.io/repos/github/kawaz/unbreaker/badge.svg?branch=master)](https://coveralls.io/github/kawaz/unbreaker?branch=master)
 
